@@ -1,0 +1,13 @@
+[
+  {
+    "name": "admin",
+    "permission":  [
+          "create_news", "edit_news", "delete_news", "see_news",
+          "create_user", "edit_user", "delete_user", "see_user"
+        ]
+  },
+  {
+    "name": "writer",
+    "permission": ["create_news", "edit_news", "delete_news", "see_news"]
+  }
+]
